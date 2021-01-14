@@ -1,0 +1,18 @@
+html{
+    overflow-x: hidden;
+}
+
+/* #centru{
+    position: relative;
+    top: 15em;
+    left: 44%;
+} */
+
+/* h1{
+        text-align: center;
+} */
+
+#centru{
+    margin-top: 10em;
+    text-align: center;
+}

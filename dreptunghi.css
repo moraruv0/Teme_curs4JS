@@ -1,0 +1,26 @@
+div{
+    position: relative;
+    top: 10em;
+    left: 25%;
+    height: 20em;
+    width: 50%;
+    background-color: blue;
+}
+
+@keyframes minimize{
+    from{
+        height: 20em;
+        /* width: 50%; */
+    }
+    to{
+        height: 0;
+        /* width: 0; */
+    }
+}
+
+.animation{
+    animation-name: minimize;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: forwards;
+}
+
